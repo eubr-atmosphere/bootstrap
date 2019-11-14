@@ -1,2 +1,3 @@
-# bootstrap
-Bootstrap-based confidence intervals algorithm
+# Bootstrap-based confidence intervals algorithm
+
+In the performance assessment task, we wish to determine whether an application run was affected by performance degradation due to resource contention. In order to do so, we construct confidence intervals (CIs) for predictions made by the models. After an application finishes executing on the platform, we can use the application features (including those that can only be obtained a posteriori) to check whether the execution time falls within the predicted CI with some confidence level 1 − α. Given that the models are fitted to data obtained while the system is lightly loaded, when the execution time is outside the CI, it indicates that some sort of performance degradation is happening. The confidence level can be adjusted to control the false positive rate α.
